@@ -1,0 +1,39 @@
+.container{
+    height:600px;
+    width: 60%;
+    display:grid;
+    gap: 1em;
+    grid-template-columns: 80px 1fr 80px; /*every col*/
+    grid-template-rows: 30px min-content auto 30px; /*every row* and use auto to prevent overriding*/
+
+}
+
+.header,.sidebar,.nav, .ads, .main,.footer{
+    border: 1px solid red;
+
+}
+
+.header,.footer{
+    grid-column: span 3;
+}
+
+.sidebar, .ads{
+    grid-row: span 2;
+}
+
+
+
+/*.nav{
+    grid-row:span 1;
+}
+
+/*
+.child-1,.child-2{
+    height: 50px;
+    width: 50px;
+    border:1px solid green;
+}
+
+.child-2{
+    border: 1px solid blue;
+}*/
