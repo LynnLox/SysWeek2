@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Happy Monkey", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color:#2f3033;
+}
+
+body{
+    background-image: url(./images/rock-paper-scissors-hand-icons-vector.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/*url("https://static.vecteezy.com/system/resources/previews/000/693/105/original/cartoon-rock-paper-scissors-vector-characters.jpg");*/
+
+.inner-body{
+    width:100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+button{
+    display:flex;
+    height:auto;
+    padding:30px;
+    background-color: #ddbbbd;
+    border: 3px solid #2f3033;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5)
+    
+    /*
+    - offset-x: the horizontal distance of the shadow from the element.
+    - offset-y: the vertical distance of the shadow from the element.
+    - blur-radius: A larger value will create a more blurred shadow, while a smaller value will make it crisper.
+    - spread-radius:A positive value will make the shadow larger, while a negative value will make it smaller.
+    - color: the color of the shadow.*/
+}
+/*button a{
+    text-decoration: none;
+    background-color: #ddbbbd;
+}*/
+
+button:hover {
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.2);
+    font-size: 37px;
+    background-color:#e19da2;
+    font-weight: 600;
+    color:#2f3033;
+    border: 3px solid #2f3033;
+  }
+

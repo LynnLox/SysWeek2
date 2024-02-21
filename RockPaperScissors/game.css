@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Happy Monkey", sans-serif;
+    font-size: 20px;
+    color:rgb(185, 188, 190);
+    font-weight: 600;
+}
+
+body{
+    background-color: #260071;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    width:100%;
+    padding:30px 0px;
+}
+.display-card{
+    background-color: rgb(183, 47, 117);
+    margin: 20px auto;
+    padding: 20px;
+}
+.choice-btn:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1); /* Increase the scale*/
+}
+
+img{
+    border-radius:50%;
+}
+
+.choice-btn{
+    background-color: #260071;
+    border:none;
+    margin:10px;
+}
+#reset-card > img{
+    background-color: #260071;
+    width:160px;
+    height: 160px;
+}
+
+.icons img{
+    width:170px;
+    height:170px;
+}
+
+#reset-card{
+    background-color: #260071;
+    border:none;
+    margin:10px;
+}
